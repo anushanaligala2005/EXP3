@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Lists Example</title>
+    <style>
+        ul.custom-bullets {
+            list-style-type: square;
+        }
+        ol.custom-numbers {
+            list-style-type: lower-roman;
+        }
+    </style>
+</head>
+<body>
+    <h2>Unordered List with Custom Bullet Style</h2>
+    <ul class="custom-bullets">
+        <li><font color="blue">Item One</font></li>
+        <li><font color="green">Item Two</font></li>
+        <li><font color="red">Item Three</font></li>
+    </ul>
+
+    <h2>Ordered List with Custom Numbering</h2>
+    <ol class="custom-numbers">
+        <li><font face="Arial">First Item</font></li>
+        <li><font face="Times New Roman">Second Item</font></li>
+        <li><font face="Courier New">Third Item</font></li>
+    </ol>
+
+    <h2>Nested Lists</h2>
+    <ul>
+        <li>Item A
+            <ul>
+                <li>Subitem A1</li>
+                <li>Subitem A2</li>
+            </ul>
+        </li>
+        <li>Item B
+            <ol>
+                <li>Subitem B1</li>
+                <li>Subitem B2</li>
+            </ol>
+        </li>
+    </ul>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt><font color="purple">HTML</font></dt>
+        <dd>HyperText Markup Language</dd>
+        <dt><font color="blue">CSS</font></dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt><font color="green">JavaScript</font></dt>
+        <dd>Programming language for web development</dd>
+    </dl>
+</body>
+</html>
